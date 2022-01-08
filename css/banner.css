@@ -64,3 +64,9 @@
     font-size: 26px;
 }
 }
+
+@media (max-width: 670px){
+    .banner {
+    height: 320px;
+}
+}
