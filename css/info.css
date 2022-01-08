@@ -1,0 +1,17 @@
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    background-color: rgb(230, 230, 230);
+}
+
+.info_partes{
+    padding: 10px;
+    text-align: center;
+    height: 250px;
+    padding-top: 50px;
+}
+
+.info_partes:hover{
+    background-color: #fff;
+    transition: 0.5s;
+}

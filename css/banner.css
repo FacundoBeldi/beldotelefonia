@@ -1,0 +1,66 @@
+.banner {
+   width: 100%;
+   height: 260px;
+   background-image: linear-gradient(to right, rgb(90, 40, 220), rgb(82, 67, 121), rgb(10, 7, 20));
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-end;
+   margin-top: 50px;
+}
+
+.banner_beldo{
+    font-family: 'Righteous', cursive;
+    text-transform: lowercase;
+    font-size: 36px;
+}
+
+.banner a {
+    width: 100px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 6px;
+    background: #fff;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.banner a:hover{
+    background: rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+}
+
+.banner_texto {
+    margin-bottom: 10px;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+
+.banner_tachado {
+    text-decoration:line-through 4px;
+    color: black;
+    font-weight: 700;
+}
+
+.banner img{
+    height: 80px;
+}
+
+.banner_logo {
+    float: right;
+}
+
+.banner_chip {
+    float: left;
+}
+
+@media (max-width: 670px){
+    .banner_texto {
+    font-size: 26px;
+}
+}

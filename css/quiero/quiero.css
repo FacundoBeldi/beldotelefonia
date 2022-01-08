@@ -1,0 +1,114 @@
+.quiero_body{
+    background-color: rgb(230, 230, 230);
+}
+
+.opciones {
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   margin: 40px;
+   flex-wrap: wrap;
+}
+
+.opcion_uno {
+    margin: 30px;
+    border: 6px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+.opcion_uno button{
+    padding: 3px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color:rgb(90, 40, 220);
+    color: #fff;
+}
+
+.opcion_uno button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+    color: black;
+}
+
+.opcion_dos {
+    margin: 30px;
+    border: 6px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+.opcion_dos button{
+    padding: 3px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgb(90, 40, 220);
+    color: #fff;
+}
+
+.opcion_dos button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+    color: black;
+}
+
+.quiero {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.quiero img {
+    height: 100px;
+    margin: 20px;
+}
+
+.quiero h4{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.quiero li{
+    font-size: 24px;
+    margin-left: 10px;
+    list-style: none;
+    word-spacing: 5px;
+    padding: 8px;
+}
+
+.quiero h5 {
+    font-size: 30px;
+    margin: 20px;
+    font-weight: 700;
+    color: rgb(90, 40, 220);
+}
+
+.quiero button {  
+    position:relative;
+    right: 55%;
+    left:45%;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(90, 40, 220);
+    color: #fff;
+}
+
+.quiero button:hover{
+    background: rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+    color: black;
+}
+
+@media (max-width: 1024px){
+    .quiero img {
+        height: 0px;
+    }
+}

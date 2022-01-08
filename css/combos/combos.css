@@ -1,0 +1,72 @@
+.combos_inicio h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 42px;
+    margin: 20px;
+}
+
+.combos_inicio span{
+    color: rgb(117, 235, 235);
+    font-family: 'Righteous', cursive;
+}
+
+.combos_inicio h4{
+    font-size: 26px;
+    text-align: center;
+    margin: 10px;
+}
+
+.combos_lista {
+    font-size: 26px;
+    margin: 20px;
+    color: rgb(90, 40, 220);
+}
+
+.combos_lista ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style:none;
+}
+
+.combos_lista li {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.combos_elegir div {
+    padding: 10px;
+}
+
+.combos_elegir img{
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    transition: 0.5s;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.combos_elegir img:hover{
+    width: 80%;
+    transition: 1s;
+    opacity: 1;
+}
+
+.combos_boton h3 {
+    text-align: center;
+    color:rgb(90, 40, 220);
+    font-weight: 700;
+    margin: 20px;
+}
+
+
+@media (max-width: 920px) {
+    .combos_inicio {
+        padding-top: 70px;
+    }
+    .combos_lista {
+        font-size: 20px;
+    }
+}
