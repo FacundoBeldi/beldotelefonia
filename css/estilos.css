@@ -1,0 +1,22 @@
+@import url(menu.css);
+@import url(banner.css);
+@import url(planes.css);
+@import url(info.css);
+@import url(opiniones.css);
+@import url(footer.css);
+
+@import url(./combos/combos.css);
+
+@import url(./recarga/recarga.css);
+
+@import url(./ayuda/ayuda.css);
+
+@import url(./quiero/quiero.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+}
+

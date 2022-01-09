@@ -1,0 +1,124 @@
+.recarga_info{
+    margin-top: 60px;
+    margin-left: 32px;
+}
+
+article h4{
+    font-size: 30px;
+    margin: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(90, 40, 220);
+}
+
+.recarga_funciona {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.recarga_funciona img {
+    height: 60px;
+}
+
+.recarga_funciona p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.recarga_lista {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.recarga_lista li{
+    list-style: none;
+}
+
+.recarga_pago {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(117, 235, 235);
+}
+
+.recarga_bienvenida{
+    padding: 20px;
+}
+
+.recarga_portabilidad{
+    padding: 20px;
+}
+
+article h5{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(90, 40, 220);
+}
+
+.recarga_puntos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.recarga_puntos img{
+    padding: 20px;
+    margin: 50px;
+}
+
+.recarga_boton{
+    border-radius: 10px;
+    font-size: 20px;
+    background-color:rgb(90, 40, 220);
+    color: #fff;
+}
+
+.recarga_ayuda {
+    background-color:rgb(90, 40, 220);
+    color: #fff;
+    width: 40%;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.recarga_ayuda a{
+    color: black;
+    text-decoration: none;
+    background-color: rgb(117, 235, 235);
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.recarga_ayuda li{
+    list-style: none;
+}
+@media (max-width: 920px) {
+    article h4 {
+        padding-top: 70px;
+    }
+    .recarga_puntos img{
+        padding: 1px;
+    }
+    .recarga_ayuda {
+        width: 80%;
+    }   
+}

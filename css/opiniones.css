@@ -1,0 +1,29 @@
+.opiniones {
+    background: rgb(230, 230, 230);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.opiniones h3 {
+    font-weight: 700;
+}
+
+.opiniones .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-fotos {
+    margin: 40px;
+}
+
+.info-fotos img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 7px solid rgb(90, 40, 220);
+}
