@@ -62,11 +62,21 @@
 @media (max-width: 670px){
     .banner_texto {
     font-size: 26px;
-}
+    color: black;
+    }
+    #primero {
+        visibility: hidden;
+    }
+    #segundo {
+        padding-bottom: 20px;
+    }
 }
 
 @media (max-width: 670px){
     .banner {
     height: 320px;
+    background-image: url(../img/telefoniaaa.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 }
